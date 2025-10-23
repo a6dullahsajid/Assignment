@@ -1,49 +1,46 @@
-// Gallery images data
+// Import local images
+import image1 from './assets/galleryImages/image1.jpg';
+import image2 from './assets/galleryImages/image2.jpg';
+import image3 from './assets/galleryImages/image3.jpeg';
+import image4 from './assets/galleryImages/image4.jpg';
+import image5 from './assets/galleryImages/image5.jpg';
+
 export const galleryImages = [
   {
     id: 1,
-    src: 'https://picsum.photos/150/100?random=1',
-    alt: 'Architecture 1',
-    title: 'Modern Building'
+    src: image1,
+    alt: 'image1',
+    title: 'image1'
   },
   {
     id: 2,
-    src: 'https://picsum.photos/150/100?random=2',
-    alt: 'Architecture 2',
-    title: 'Urban Design'
+    src: image2,
+    alt: 'image2',
+    title: 'image2'
   },
   {
     id: 3,
-    src: 'https://picsum.photos/150/100?random=3',
-    alt: 'Architecture 3',
-    title: 'Contemporary Structure'
+    src: image3,
+    alt: 'image3',
+    title: 'image3'
   },
   {
     id: 4,
-    src: 'https://picsum.photos/150/100?random=4',
-    alt: 'Architecture 4',
-    title: 'Glass Facade'
+    src: image4,
+    alt: 'image4',
+    title: 'image4'
   },
   {
     id: 5,
-    src: 'https://picsum.photos/150/100?random=5',
-    alt: 'Architecture 5',
-    title: 'Skyline View'
-  },
-  {
-    id: 6,
-    src: 'https://picsum.photos/150/100?random=6',
-    alt: 'Architecture 6',
-    title: 'Industrial Design'
+    src: image5,
+    alt: 'image5',
+    title: 'image5'
   }
 ];
 
-// Simple function to add a new image from file
 export const addNewImage = (currentImages, file) => {
-  // Create a URL for the selected file
   const imageUrl = URL.createObjectURL(file);
   
-  // Create new image object
   const newImage = {
     id: currentImages.length + 1,
     src: imageUrl,
@@ -51,6 +48,5 @@ export const addNewImage = (currentImages, file) => {
     title: file.name || `image ${currentImages.length + 1}`
   };
   
-  // Return the current images plus the new one
   return [...currentImages, newImage];
 };
