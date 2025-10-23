@@ -40,6 +40,7 @@ export default function App() {
         behavior: 'smooth'
       });
     }
+    console.log('Next');
   };
 
   return (
