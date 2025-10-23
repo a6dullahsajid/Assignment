@@ -1,0 +1,14 @@
+export const tabContent = {
+  about: [
+    "Hello! I'm Dave, your sales rep here from Salesforce. I've been working at this awesome company for 3 years now.",
+    "I was born and raised in Albany, NY & have been living in Santa Carla for the past 10 years my wife Tiffany and my 4 year old twin daughters- Emma and Ella. Both of them are just starting school, so my calender is usually blocked between 9-10 AM. This is a... Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eligendi soluta recusandae voluptates dolorem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis? Iusto voluptate porro inventore rem odio nesciunt suscipit aspernatur et maiores excepturi, quod est esse maxime? In ea officiis ad? Mollitia, dignissimos tempore molestiae, placeat quis, soluta quam reiciendis repudiandae et doloribus cum similique voluptas cupiditate corrupti nesciunt eligendi vel."
+  ],
+  experiences: [
+    "With 3 years at Salesforce, I've helped over 200+ businesses streamline their sales processes and increase revenue by an average of 35%.",
+    "My expertise includes CRM implementation, sales automation, and team training. I specialize in helping mid-market companies scale their sales operations efficiently. I've worked with clients across various industries including technology, healthcare, finance, and manufacturing. My approach focuses on understanding each client's unique challenges and tailoring solutions that drive measurable results. I believe in building long-term partnerships rather than just closing deals, which is why 85% of my clients continue to work with me year after year. I'm also certified in Salesforce Sales Cloud, Service Cloud, and Marketing Cloud, giving me comprehensive knowledge across the entire Salesforce ecosystem."
+  ],
+  recommended: [
+    "Based on your company profile, I recommend starting with our Sales Cloud Essentials package, which includes lead management, opportunity tracking, and basic reporting.",
+    "I also suggest considering our Einstein Analytics add-on to gain deeper insights into your sales performance and customer behavior patterns. For your specific industry and company size, the Professional edition would be ideal as it includes advanced features like territory management, advanced reporting, and mobile access. Additionally, I'd recommend implementing our Service Cloud to provide excellent customer support and build stronger relationships. The combination of these tools will give you a 360-degree view of your customers and help you make data-driven decisions that will significantly impact your bottom line."
+  ]
+};
